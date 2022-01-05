@@ -1,0 +1,36 @@
+.main-title {
+  font-family: "Dancing Script", cursive;
+}
+body {
+  background-color: #45c2b7;
+}
+a,
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.bi-activity {
+  font-size: 3rem;
+  color: #164e63;
+}
+.bi-social {
+  font-size: 1.5rem;
+  color: #164e63;
+}
+.nav-link {
+  color: #164e63;
+}
+
+/* <style>
+colors
+--brand-color: #45C2B7; the light green one
+--dark-color: #164E63; the dark green one
+--mid-color: #BEC9DF; the light grey one
+--light-color: #FFFFFF; white...duh.
+  
+
+font family
+  font-family: 'Dancing Script', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+</style> */
