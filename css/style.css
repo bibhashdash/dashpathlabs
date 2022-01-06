@@ -2,13 +2,25 @@
   font-family: "Dancing Script", cursive;
 }
 body {
-  background-color: #45c2b7;
+  /* background: #45c2b7; */
+  padding-top: 7rem;
+
+  /* background-color: black; */
 }
 a,
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
   font-family: "Quicksand", sans-serif;
 }
-
+nav {
+  background-color: #45c2b7;
+}
 .bi-activity {
   font-size: 3rem;
   color: #164e63;
@@ -20,7 +32,38 @@ p {
 .nav-link {
   color: #164e63;
 }
+.hero-container {
+  height: 80vh;
+}
+.hero-heading {
+  font-size: 2.7rem;
+}
+.btn {
+  height: 35%;
+  border: none;
+}
 
+.btn-primary {
+  background-color: #45c2b7;
+
+  color: #164e63;
+}
+
+.btn-outline-primary {
+  color: #164e63;
+  border: 1px solid #164e63;
+}
+.btn-primary:hover {
+  border: 2px solid #164e63;
+  background-color: #45c2b7;
+
+  color: #164e63;
+}
+.btn-outline-primary:hover {
+  background-color: transparent;
+  border: 1px solid #45c2b7;
+  color: #45c2b7;
+}
 /* <style>
 colors
 --brand-color: #45C2B7; the light green one
