@@ -32,20 +32,18 @@ nav {
 .nav-link {
   color: #164e63;
 }
-.hero-container {
-  height: 90vh;
-}
+
 .hero-heading {
   font-size: 2.7rem;
 }
 .btn {
-  height: 35%;
+  /* height: 35%; */
   border: none;
 }
 
 .btn-primary {
   background-color: #45c2b7;
-
+  border: 1px solid #45c2b7;
   color: #164e63;
 }
 
@@ -54,7 +52,7 @@ nav {
   border: 1px solid #164e63;
 }
 .btn-primary:hover {
-  border: 2px solid #164e63;
+  border: 1px solid #164e63;
   background-color: #45c2b7;
 
   color: #164e63;
@@ -63,6 +61,12 @@ nav {
   background-color: transparent;
   border: 1px solid #45c2b7;
   color: #45c2b7;
+}
+
+@media screen and (max-width: 320px) {
+  .hero-heading {
+    font-size: 2rem;
+  }
 }
 /* <style>
 colors
@@ -77,3 +81,9 @@ font family
 font-family: 'Quicksand', sans-serif;
 font-family: 'Shadows Into Light', cursive;
 </style> */
+
+/* microscope icon attribution
+<div>Icons made by <a href="https://www.flaticon.com/authors/nawicon" title="nawicon">nawicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+ */
+
+/* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */

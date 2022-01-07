@@ -32,7 +32,13 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand"><i class="bi bi-activity"></i> </a>
+        <a href="#" class="navbar-brand"
+          ><img
+            style="width: 65px"
+            src="images/dashlabs_logo.png"
+            alt="Dash Labs logo"
+          />
+        </a>
         <button
           class="navbar-toggler custom-toggler"
           type="button"
@@ -72,23 +78,44 @@
       </div>
     </nav>
 
-    <main class="container">
-      <div class="container-fluid hero-container px-4">
-        <h1 class="fw-bolder text-wrap hero-heading w-100">
-          Quality Pathology is just a step away
-        </h1>
+    <main class="container container-fluid p-md-0">
+      <div
+        class="container-fluid hero-container d-flex flex-column justify-content-start flex-md-row p-md-0"
+      >
         <div
-          class="container btn-container h-25 d-flex flex-column justify-content-evenly"
+          class="content-container d-flex flex-column justify-content-start mb-3 col-md-6 justify-content-md-center"
         >
-          <button type="button" class="btn btn-primary w-100 fw-bolder mb-3">
-            Book a Blood Test
-          </button>
-          <button type="button" class="btn btn-outline-primary w-100 fw-bolder">
-            Contact Us
-          </button>
+          <h1 class="fw-bolder text-wrap hero-heading w-100 mb-3">
+            We provide expert Pathology and diagnostic services
+          </h1>
+          <div
+            class="container btn-container d-flex flex-column justify-content-evenly flex-md-row justify-content-md-start"
+          >
+            <button
+              type="button"
+              class="btn btn-primary w-100 fw-bolder mb-3 py-3 mb-md-0 py-md-2 me-md-2 px-md-1"
+              style="width: 40%"
+            >
+              Book a Blood Test
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-primary w-100 fw-bolder py-3 py-md-2 px-md-1"
+              style="width: 40%"
+            >
+              Contact Us
+            </button>
+          </div>
         </div>
-        <div class="hero-image container h-25">
-          <img class="img-fluid" src="images/undraw_medicine_b1ol.png" alt="" />
+
+        <div
+          class="hero-image container p-md-0 d-md-flex align-items-md-center"
+        >
+          <img
+            class="img-fluid"
+            src="images/undraw_medicine_b1ol.png"
+            alt="hero-image"
+          />
         </div>
       </div>
     </main>
