@@ -1,8 +1,6 @@
 body {
   /* background: #45c2b7; */
   padding-top: 7rem;
-
-  /* background-color: black; */
 }
 a,
 p,
@@ -34,7 +32,9 @@ nav {
 .nav-link {
   color: #164e63;
 }
-
+.hero-container {
+  background-color: #fff;
+}
 .hero-heading {
   font-size: 2.7rem;
   color: #164e63;
@@ -65,8 +65,12 @@ nav {
   border: 1px solid #45c2b7;
   color: #45c2b7;
 }
-.cards-section {
+.section {
   margin: 5rem 0;
+}
+.section-title {
+  text-align: center;
+  font-weight: 600;
 }
 .card {
   border: none;
@@ -76,14 +80,25 @@ nav {
   padding-left: 0;
   padding-right: 0;
 }
-.card-title,
-.card-subtitle {
+.section-item-title,
+.section-item-subtitle {
   text-align: center;
+  font-weight: 300;
 }
 .card-image {
   height: 100px;
   width: 100px;
 }
+.section-item-subtitle {
+  color: #bec9df;
+  font-weight: bolder;
+}
+
+.testimonial-quote-icon {
+  width: 50px;
+  height: 50px;
+}
+
 @media screen and (max-width: 320px) {
   .hero-heading {
     font-size: 2.3rem;
