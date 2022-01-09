@@ -1,6 +1,3 @@
-.main-title {
-  font-family: "Dancing Script", cursive;
-}
 body {
   /* background: #45c2b7; */
   padding-top: 7rem;
@@ -9,14 +6,17 @@ body {
 }
 a,
 p,
+button {
+  font-family: "Quicksand", sans-serif;
+  color: #164e63;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-button {
-  font-family: "Quicksand", sans-serif;
+h6 {
+  font-family: "Montserrat", sans-serif;
   color: #164e63;
 }
 
@@ -72,18 +72,27 @@ nav {
   border: none;
   margin: 1.5rem 0;
 }
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.card-title,
+.card-subtitle {
+  text-align: center;
+}
 .card-image {
-  min-height: 50%;
+  height: 100px;
+  width: 100px;
 }
 @media screen and (max-width: 320px) {
   .hero-heading {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero-heading {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   .btn-hero {
     width: 160px !important;
@@ -91,7 +100,7 @@ nav {
 }
 @media screen and (min-width: 992px) {
   .hero-heading {
-    font-size: 3.1rem;
+    font-size: 2.7rem;
   }
   .btn-hero {
     width: 200px !important;
@@ -108,7 +117,7 @@ nav {
     padding-right: 2rem;
   }
   .hero-heading {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -117,7 +126,7 @@ nav {
     padding-right: 5rem;
   }
   .hero-heading {
-    font-size: 4.6rem;
+    font-size: 4.1rem;
   }
 }
 /* <style>
