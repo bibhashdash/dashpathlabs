@@ -1,6 +1,6 @@
 body {
-  /* background: #45c2b7; */
-  padding-top: 7rem;
+  background: #45c2b7;
+  padding: 5.5rem 0 0 0;
 }
 a,
 p,
@@ -17,9 +17,9 @@ h6 {
   font-family: "Montserrat", sans-serif;
   color: #164e63;
 }
-
 nav {
   background-color: #45c2b7;
+  /* border: none; */
 }
 .bi-activity {
   font-size: 3rem;
@@ -32,7 +32,8 @@ nav {
 .nav-link {
   color: #164e63;
 }
-.hero-container {
+.hero-container,
+.testimonials {
   background-color: #fff;
 }
 .hero-heading {
@@ -65,8 +66,13 @@ nav {
   border: 1px solid #32a59b;
   color: #32a59b;
 }
-.section {
-  margin: 5rem 0;
+.cards-section {
+  background-color: #45c2b7;
+}
+.cards-section h2,
+.cards-section h3,
+.cards-section p {
+  color: #fff;
 }
 .section-title {
   text-align: center;
@@ -75,6 +81,7 @@ nav {
 .card {
   border: none;
   margin: 1.5rem 0;
+  background-color: #45c2b7;
 }
 .card-body {
   padding-left: 0;
@@ -90,10 +97,13 @@ nav {
   width: 100px;
 }
 .section-item-subtitle {
-  color: #bec9df;
+  /* color: #bec9df; */
   font-weight: bolder;
 }
-
+.carousel-item > h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
 .testimonial-quote-icon {
   width: 50px;
   height: 50px;
@@ -127,19 +137,11 @@ nav {
 }
 
 @media screen and (min-width: 1200px) {
-  body {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
   .hero-heading {
     font-size: 3.2rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  body {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
   .hero-heading {
     font-size: 4.1rem;
   }

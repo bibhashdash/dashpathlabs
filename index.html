@@ -19,7 +19,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;600;900&family=Quicksand:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;600;900&family=Quicksand:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
@@ -35,57 +38,57 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top px-3 px-xl-5">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand"
-          ><img
-            style="width: 65px"
-            src="images/dashlabs_logo.png"
-            alt="Dash Labs logo"
-          />
-        </a>
-        <button
-          class="navbar-toggler custom-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top px-3 px-md-4 px-lg-5"
+    >
+      <a href="#" class="navbar-brand"
+        ><img
+          style="width: 65px"
+          src="images/dashlabs_logo.png"
+          alt="Dash Labs logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler custom-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+        <ul class="navbar-nav col-lg-11">
+          <li class="nav-item mx-4 mx-md-2">
+            <a href="#" class="nav-link fw-bolder">Home</a>
+          </li>
+          <li class="nav-item mx-4 mx-md-2">
+            <a href="#" class="nav-link fw-bolder">Services</a>
+          </li>
+          <li class="nav-item mx-4 mx-md-2">
+            <a href="#" class="nav-link fw-bolder">Testimonials</a>
+          </li>
+          <li class="nav-item mx-4 mx-md-2">
+            <a href="#" class="nav-link fw-bolder">Packages</a>
+          </li>
+          <li class="nav-item mx-4 mx-md-2">
+            <a href="#" class="nav-link fw-bolder">Contact Us</a>
+          </li>
+        </ul>
+        <div
+          class="social-icons-container col-lg-1 d-flex justify-content-lg-evenly"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-          <ul class="navbar-nav col-lg-11">
-            <li class="nav-item mx-4 mx-md-2">
-              <a href="#" class="nav-link fw-bolder">Home</a>
-            </li>
-            <li class="nav-item mx-4 mx-md-2">
-              <a href="#" class="nav-link fw-bolder">Services</a>
-            </li>
-            <li class="nav-item mx-4 mx-md-2">
-              <a href="#" class="nav-link fw-bolder">Testimonials</a>
-            </li>
-            <li class="nav-item mx-4 mx-md-2">
-              <a href="#" class="nav-link fw-bolder">Packages</a>
-            </li>
-            <li class="nav-item mx-4 mx-md-2">
-              <a href="#" class="nav-link fw-bolder">Contact Us</a>
-            </li>
-          </ul>
-          <div
-            class="social-icons-container col-lg-1 d-flex justify-content-lg-evenly"
-          >
-            <a href="#"><i class="bi bi-facebook bi-social mx-2"></i></a>
-            <a href="#"><i class="bi bi-linkedin bi-social mx-2"></i></a>
-          </div>
+          <a href="#"><i class="bi bi-facebook bi-social mx-2"></i></a>
+          <a href="#"><i class="bi bi-linkedin bi-social mx-2"></i></a>
         </div>
       </div>
     </nav>
 
-    <main class="px-3">
+    <main>
       <div
-        class="container-fluid hero-container d-flex flex-column justify-content-start flex-md-row"
+        class="hero-container px-3 py-5 px-md-4 px-lg-5 d-flex flex-column justify-content-start flex-md-row"
       >
         <div
           class="content-container d-flex flex-column justify-content-start mb-3 col-md-6 justify-content-md-center"
@@ -122,81 +125,110 @@
         </div>
       </div>
 
-      <div class="cards-section section container-fluid row">
-      <h2 class="section-title mb-5">We are</h2>
-        <!-- Card 1 -->
+      <div class="cards-section px-3 py-5 px-md-4 px-lg-5 section">
+        <div class="cards-wrapper row">
+          <h2 class="section-title mb-5">We are</h2>
+          <!-- Card 1 -->
           <div class="card col-sm-12 col-md-4 align-items-center">
-            <div class="card-image "><img src="images/syringe-solid.svg" class="card-image-top card-image-file"></div>
-            
-              
-            </>
+            <div class="card-image">
+              <img
+                src="images/syringe-solid.svg"
+                class="card-image-top card-image-file"
+              />
+            </div>
+
             <div class="card-body">
               <h3 class="card-title section-item-title">Reliable</h3>
-              <p class="card-subtitle section-item-subtitle ">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="card-subtitle section-item-subtitle">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
             </div>
           </div>
-
           <!-- Card 2 -->
           <div class="card col-sm-12 col-md-4 align-items-center">
-            <div class="card-image"><img src="images/radiation-alt-solid.svg" class="card-image-top card-image-file "></div>
-            
-              
-            </>
+            <div class="card-image">
+              <img
+                src="images/radiation-alt-solid.svg"
+                class="card-image-top card-image-file"
+              />
+            </div>
+
             <div class="card-body">
               <h3 class="card-title section-item-title">Accurate</h3>
-              <p class="card-subtitle section-item-subtitle ">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="card-subtitle section-item-subtitle">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
             </div>
           </div>
-
           <!-- Card 3 -->
           <div class="card col-sm-12 col-md-4 align-items-center">
-            <div class="card-image"><img src="images/clinic-medical-solid.svg" class="card-image-top card-image-file"></div>
-            
-              
-            </>
+            <div class="card-image">
+              <img
+                src="images/clinic-medical-solid.svg"
+                class="card-image-top card-image-file"
+              />
+            </div>
+
             <div class="card-body">
               <h3 class="card-title section-item-title">Local</h3>
-              <p class="card-subtitle section-item-subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="card-subtitle section-item-subtitle">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
             </div>
           </div>
-        
-        
+        </div>
       </div>
 
-
-      <div class="testimonials container-fluid section">
+      <div class="testimonials section px-3 py-5 px-md-4 px-lg-5">
         <h2 class="section-title mb-5">Reviews</h2>
-        <div id="carouselTestimonials" class="carousel slide"  data-bs-ride="carousel" data-bs-interval="3000">
-          <div class="carousel-inner px-lg-5">
-            <div class="carousel-item active ">
-              
-              <div>
-                <!-- <div class="testimonial-quote-icon"><img src="images/quote-left-solid.svg" ></div> -->
-                <h3 class="section-item-title px-lg-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum?</h3>
-                <p class="section-item-subtitle">Vicki Smith</p>
+        <div
+          id="carouselTestimonials"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner px-2 px-md-5">
+            <div class="carousel-item active">
+              <div class="testimonial-quote-icon">
+                <img src="images/quote-left-solid.svg" />
               </div>
-              
+              <h3 class="section-item-title px-lg-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, nostrum?
+              </h3>
+              <p class="section-item-subtitle">Vicki Smith</p>
             </div>
-            <div class="carousel-item ">
-             
-              <div>
-                <!-- <div class="testimonial-quote-icon"><img src="images/quote-left-solid.svg" ></div> -->
-                <h3 class="section-item-title px-lg-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum?</h3>
-                <p class="section-item-subtitle">Angela Johnson</p>
+
+            <div class="carousel-item">
+              <div class="testimonial-quote-icon">
+                <img src="images/quote-left-solid.svg" />
               </div>
-              
+              <h3 class="section-item-title px-lg-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, nostrum?
+              </h3>
+              <p class="section-item-subtitle">Angela Johnson</p>
             </div>
-            <div class="carousel-item ">
-             
-              <div >
-                <!-- <div class="testimonial-quote-icon"><img src="images/quote-left-solid.svg" ></div> -->
-                <h3 class="section-item-title px-lg-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum?</h3>
-                <p class="section-item-subtitle">John Doe</p>
+            <div class="carousel-item">
+              <div class="testimonial-quote-icon">
+                <img src="images/quote-left-solid.svg" />
               </div>
-              
+              <h3 class="section-item-title px-lg-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, nostrum?
+              </h3>
+              <p class="section-item-subtitle">John Doe</p>
             </div>
-            
           </div>
+        </div>
+      </div>
+
+      <div class="press-coverage section px-3 py-5 px-md-4 px-lg-5">
+        <div class="icons-wrapper">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
         </div>
       </div>
     </main>
