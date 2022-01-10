@@ -55,15 +55,15 @@ nav {
   border: 1px solid #164e63;
 }
 .btn-primary:hover {
-  border: 1px solid #45c2b7;
-  background-color: #45c2b7;
+  border: 1px solid #32a59b;
+  background-color: #32a59b;
 
-  color: #164e63;
+  color: #fff;
 }
 .btn-outline-primary:hover {
   background-color: transparent;
-  border: 1px solid #45c2b7;
-  color: #45c2b7;
+  border: 1px solid #32a59b;
+  color: #32a59b;
 }
 .section {
   margin: 5rem 0;
