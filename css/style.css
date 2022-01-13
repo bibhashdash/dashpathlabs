@@ -1,7 +1,18 @@
+html {
+  overflow-x: hidden;
+}
 body {
   background: #45c2b7;
   padding: 5.5rem 0 0 0;
-  overflow-x: hidden;
+}
+.white-bg {
+  background-color: #fff;
+}
+.green-bg {
+  background-color: #45c2b7;
+}
+.darkgreen-color {
+  color: #164e63;
 }
 a,
 p,
@@ -18,9 +29,9 @@ h6 {
   font-family: "Montserrat", sans-serif;
   color: #164e63;
 }
-nav {
-  background-color: #45c2b7;
-  /* border: none; */
+
+input {
+  color: #5d5d5d;
 }
 .bi-activity {
   font-size: 3rem;
@@ -33,12 +44,7 @@ nav {
 .nav-link {
   color: #164e63;
 }
-.hero-container,
-.testimonials,
-.press-coverage,
-.contact {
-  background-color: #fff;
-}
+
 .hero-heading {
   font-size: 2.7rem;
   color: #164e63;
@@ -49,9 +55,9 @@ nav {
 }
 
 .btn-primary {
-  background-color: #45c2b7;
   border: 1px solid #45c2b7;
   color: #ffffff;
+  background-color: #45c2b7;
 }
 
 .btn-outline-primary {
@@ -69,11 +75,7 @@ nav {
   border: 1px solid #32a59b;
   color: #32a59b;
 }
-.cards-section,
-.cta,
-.footer {
-  background-color: #45c2b7;
-}
+
 .cards-section h2,
 .cards-section h3,
 .cards-section p {
@@ -86,7 +88,6 @@ nav {
 .card {
   border: none;
   margin: 1.5rem 0;
-  background-color: #45c2b7;
 }
 .card-body {
   padding-left: 0;
@@ -133,7 +134,7 @@ nav {
 }
 
 .cta-image-1 {
-  transform: rotate(-30deg);
+  /* transform: rotate(-30deg); */
   left: 25%;
 }
 .cta-image-2 {
@@ -141,7 +142,7 @@ nav {
   top: 55%;
 }
 .cta-image-3 {
-  transform: rotate(30deg);
+  /* transform: rotate(30deg); */
   right: 25%;
 }
 .cta-title {
@@ -149,6 +150,17 @@ nav {
 }
 .btn-cta {
   background-color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 5%;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
 .footer {
   border-top: 0.5px solid rgb(218, 218, 218);
@@ -165,8 +177,15 @@ nav {
     font-size: 2.3rem;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .btn {
+    max-width: 300px;
+  }
+}
 @media screen and (min-width: 768px) {
+  .section {
+    padding: 10% 10%;
+  }
   .hero-heading {
     font-size: 2.2rem;
   }
@@ -185,6 +204,9 @@ nav {
   .cta-title {
     font-size: 1rem;
     margin-bottom: 1rem;
+  }
+  .contact {
+    padding: 10% 25%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -212,6 +234,9 @@ nav {
 @media screen and (min-width: 1200px) {
   .hero-heading {
     font-size: 3.2rem;
+  }
+  .contact {
+    padding: 5% 35%;
   }
 }
 @media screen and (min-width: 1600px) {
