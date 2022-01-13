@@ -148,11 +148,15 @@ input {
 }
 .cta-content {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .cta-title {
   color: #fff;
   font-size: 1rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .btn-cta {
   background-color: #fff;
@@ -189,7 +193,7 @@ input {
     padding: 10% 5% !important;
   }
   .hero-heading {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .btn {
     width: 160px !important;
