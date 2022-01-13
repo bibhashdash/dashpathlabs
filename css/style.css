@@ -36,7 +36,7 @@ nav {
 .hero-container,
 .testimonials,
 .press-coverage,
-.footer {
+.contact {
   background-color: #fff;
 }
 .hero-heading {
@@ -70,7 +70,8 @@ nav {
   color: #32a59b;
 }
 .cards-section,
-.cta {
+.cta,
+.footer {
   background-color: #45c2b7;
 }
 .cards-section h2,
@@ -148,6 +149,9 @@ nav {
 }
 .btn-cta {
   background-color: #fff;
+}
+.footer {
+  border-top: 0.5px solid rgb(218, 218, 218);
 }
 .footer .bi-social {
   font-size: 1rem;
