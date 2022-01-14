@@ -29,6 +29,9 @@ h6 {
   font-family: "Montserrat", sans-serif;
   color: #164e63;
 }
+a {
+  text-decoration: none;
+}
 
 input {
   color: #5d5d5d;
@@ -57,10 +60,12 @@ input {
 
 .btn-primary {
   border: 1px solid #45c2b7;
-  color: #ffffff;
+
   background-color: #45c2b7;
 }
-
+.btn-primary a {
+  color: #fff;
+}
 .btn-outline-primary {
   color: #164e63;
   border: 1px solid #164e63;
@@ -72,11 +77,15 @@ input {
   color: #fff;
 }
 .btn-outline-primary:hover {
-  background-color: transparent;
+  background-color: #fff;
   border: 1px solid #32a59b;
   color: #32a59b;
 }
+.btn-outline-primary > a:hover {
+  background-color: #fff;
 
+  color: #32a59b;
+}
 .cards-section h2,
 .cards-section h3,
 .cards-section p {
